@@ -1,6 +1,0 @@
-2021/02/27 06:58:10 [crit] 15884#15884: *33149 SSL_do_handshake() failed (SSL: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low) while SSL handshaking, client: 74.82.47.4, server: 0.0.0.0:443
-2021/02/27 09:08:53 [notice] 22400#22400: signal process started
-2021/02/27 09:08:58 [notice] 22451#22451: signal process started
-2021/02/27 09:09:01 [notice] 22739#22739: signal process started
-2021/02/27 09:09:08 [notice] 23065#23065: signal process started
-2021/02/27 09:09:13 [notice] 23118#23118: signal process started
