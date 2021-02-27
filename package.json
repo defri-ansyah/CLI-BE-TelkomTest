@@ -1,8 +1,9 @@
 {
-  "name": "telkom-test",
+  "name": "telkom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/defri-ansyah/CLI-BE-TelkomTest/issues"
   },
-  "homepage": "https://github.com/defri-ansyah/CLI-BE-TelkomTest#readme"
+  "homepage": "https://github.com/defri-ansyah/CLI-BE-TelkomTest#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
