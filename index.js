@@ -9,9 +9,10 @@ if (!process.argv[2] || !process.argv[2].split('.').includes('log') || process.a
     
     -h == help or for how to use the CLI
     [location your file] -t json == convert .log to .json
-    example : converter /var/log/nginx/error.log -t json
+    example : telkom /var/log/nginx/error.log -t json
     [location your file] -t text == convert .log to .txt
-    example: converter /var/log/nginx/error.log -t text
+    example: telkom /var/log/nginx/error.log -t text
+    -o == to be able to choose where to put the output file
 
     usage: telkom [-h] [<path>] [<path> -t <extention>]
                   [<path> -o <new-path>] [<path> -t <extention> -o <new-path>] 
@@ -23,9 +24,10 @@ if (!process.argv[2] || !process.argv[2].split('.').includes('log') || process.a
     
     example :
     telkom /var/log/nginx/error.log -t text
-    telkom /var/log/nginx/error.log -o /User/johnmayer/Desktop/nginxlog.txt
-    telkom /var/log/nginx/error.log -t json -o /User/johnmayer/Desktop/nginxlog.json
-    telkom /var/log/nginx/error.log -t text -o /User/johnmayer/Desktop/nginxlog.txt
+    telkom /var/log/nginx/error.log -t json
+    telkom /var/log/nginx/error.log -o /User/defri/Desktop/nginxlog.txt
+    telkom /var/log/nginx/error.log -t json -o /User/defri/Desktop/nginxlog.json
+    telkom /var/log/nginx/error.log -t text -o /User/defri/Desktop/nginxlog.txt
     
     `)
 }
