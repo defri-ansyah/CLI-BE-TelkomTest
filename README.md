@@ -58,3 +58,11 @@ telkom /var/log/nginx/error.log -o /User/defri/Desktop/nginxlog.txt
 telkom /var/log/nginx/error.log -t json -o /User/defri/Desktop/nginxlog.json
 telkom /var/log/nginx/error.log -t text -o /User/defri/Desktop/nginxlog.txt
 ```
+
+### Contact
+
+- Email - defriansyah013@gmail.com
+- LinkedIn - [Defri Ansyah](https://linkedin.com/in/defri-ansyah/)
+
+---
+Copyright © 2021 [Defri Ansyah](https://github.com/defri-ansyah)
